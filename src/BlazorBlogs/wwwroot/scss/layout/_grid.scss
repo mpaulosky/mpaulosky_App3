@@ -1,4 +1,5 @@
 @use "../util" as u;
+@use '../globals' as *;
 
 %widget {
 }
@@ -21,7 +22,7 @@
   }
 
   &__main {
-    background-color: hsl(240, 97%, 27%);
+    background-color: $purple-dark;
   }
 
   &__sidebar {

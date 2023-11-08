@@ -1,15 +1,39 @@
+
+// Theme Colors
+
+$purple-dark: hsl(274, 98%, 21%);
+$purple-light: hsl(274, 74%, 60%);
+$blue-dark: hsl(240, 97%, 27%);
+$blue-light: hsl(240, 73%, 61%);
+$green-dark: hsl(120, 100%, 27%);
+$green-light: hsl(120, 100%, 61%);
+$magenta-dark: hsl(300, 94%, 19%);
+$magenta-light: hsl(300, 94%, 61%);
+$pink: hsl(294, 82%, 59%);
+$footer: hsl(0, 2%, 8%);
+
+// Primary Colors
+
+$primary: $purple-dark;
+$secondary: $pink;
+
+// Root Colors
+
 :root {
-  --background-color: hsl(0, 1%, 26%);
+  --background-color: $purple-light;
   --text-color: hsl(0, 0%, 100%);
   }
 
+// Background Colors
+
   .magenta {
-    background-color: hsl(300, 94%, 19%);
+    background-color: $magenta-dark;
   }
   .blue {
-    background-color: hsl(240, 97%, 27%);
+    background-color: $blue-dark;
   }
 
   .green {
-    background-color: hsl(120, 100%, 27%);
+    background-color: $green-dark;
   }
+
