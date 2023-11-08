@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A27D6560-C5AB-4B4B-AF20-0339E712D9CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorBlogs", "src\BlazorBlogs\BlazorBlogs.csproj", "{EC05E145-C115-45F1-9AFF-D3CAE0257DE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BFA73F3-AD56-4D87-9492-D4BB42023579}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		Global.json = Global.json
+		LICENSE = LICENSE
+		REFERENCES.md = REFERENCES.md
+		runsettings.xml = runsettings.xml
+		SECURITY.md = SECURITY.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC05E145-C115-45F1-9AFF-D3CAE0257DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC05E145-C115-45F1-9AFF-D3CAE0257DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC05E145-C115-45F1-9AFF-D3CAE0257DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC05E145-C115-45F1-9AFF-D3CAE0257DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC05E145-C115-45F1-9AFF-D3CAE0257DE6} = {A27D6560-C5AB-4B4B-AF20-0339E712D9CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {161519D0-ADE6-47CD-BD87-DC55A69467B8}
+	EndGlobalSection
+EndGlobal
