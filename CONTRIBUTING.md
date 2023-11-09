@@ -36,16 +36,14 @@ those tools as well. The folders are configured as follows:
 /documents                              -- User Documentation
 
 /src                                    -- Usage Samples
-  BlazorBlogs.Client                    -- Blazor WASM
-  BlazorBlogs                           -- Server
-  /tests                                -- Unit and Integration tests
-    BlazorBlogs.Tests.Unit              -- Unit tests
-    BlazorBlogs.Client.Tests.Unit       -- Unit tests
-    TestHelpers                         -- Mocked data helpers
+	BlazorBlogs                           -- Blazor WASM
+	/tests                                -- Unit and Integration tests
+		BlazorBlogs.Tests.Unit              -- Unit tests
+		TestHelpers                         -- Mocked data helpers
 ```
 
 All official versions of the project are built and delivered with GitHub Actions and linked in the main README.md
-and [releases tab in GitHub](https://github.com/mpaulosky/mpaulosky_App/releases).
+and [releases tab in GitHub](https://github.com/mpaulosky/mpaulosky_App3/releases).
 
 ### Design Decisions
 
@@ -70,20 +68,20 @@ This means one of several types of contributions:
 
 ### Create an Issue
 
-Create a [New Issue Here](https://github.com/mpaulosky/mpaulosky_App/issues).
+Create a [New Issue Here](https://github.com/mpaulosky/mpaulosky_App3/issues).
 
 1. If you are reporting a `Bug` that you have found. Be sure to add the `Bug` label so that we can triage and track it.
 1. If you are reporting an `Enhancement` that you think would improve the project. Be sure to add the `Enhancement`
-   label so we can track it.
+	 label so we can track it.
 
 ### Respond to an Issue
 
-[Fork the Repository to your GitHub account](https://github.com/mpaulosky/mpaulosky_App/fork).
+[Fork the Repository to your GitHub account](https://github.com/mpaulosky/mpaulosky_App3/fork).
 
 1. Create a new Branch from the develop branch with a reference to the existing Issue number.
 1. Work on the issue.
 1. Create Unit, Integration tests for any code that require them. We use [xUnit](https://www.nuget.org/packages/xunit/)
-   to test our code and [bUnit](https://www.nuget.org/packages/bunit/) to test our blazor components.
+	 to test our code and [bUnit](https://www.nuget.org/packages/bunit/) to test our blazor components.
 1. When you are done Create a Pull Request from your branch to the develop branch.
 1. Submit the Pull Request.
 

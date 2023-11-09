@@ -11,10 +11,8 @@
     <Content Remove="wwwroot\css\app.css" />
     <Content Remove="wwwroot\scss\style.css" />
     <Content Remove="wwwroot\scss\style.min.css" />
-  </ItemGroup>
-
-  <ItemGroup>
     <_ContentIncludedByDefault Remove="compilerconfig.json" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\style.min.css" />
   </ItemGroup>
 
   <ItemGroup>
