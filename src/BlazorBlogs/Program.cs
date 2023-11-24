@@ -18,3 +18,4 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
 await builder.Build().RunAsync();
+// FEATURE: Issue Title: Feature: Add a Page to display Posts Assignees: @mpaulosky Labels: Enhancement Issue D	escription: Add a page that will display the existing posts
