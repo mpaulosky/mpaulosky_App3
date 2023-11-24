@@ -19,3 +19,4 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 
 await builder.Build().RunAsync();
 // FEATURE: Issue Title: Feature: Add a Page to display Posts Assignees: @mpaulosky Labels: Enhancement Issue D	escription: Add a page that will display the existing posts
+// FEATURE: Issue Title: Feature: Add a Page to Create new Posts Assignees: @mpaulosky Labels: Enhancement Issue Description: Add a new page to create new posts
